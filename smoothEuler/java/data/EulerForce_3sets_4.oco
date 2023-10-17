@@ -1,0 +1,114 @@
+#graph
+@attribute
+@type
+@default
+
+#nodes
+@attribute	nodePosition	color	nodeSize
+@type	Coordinates	Color	Coordinates
+@default	0.0,0.0	#ff0000ff	1.0,1.0
+0_n	331,152	#ff0000ff	5,5
+ab_n	222,321	#ff0000ff	5,5
+ac_n	447,320	#ff0000ff	5,5
+0_cn	332.1304347826087,263.5652173913044	#ff0000ff	5,5
+1_cn	333.095862764884,354.2744702320888	#ff0000ff	5,5
+2_cn	330.0265486725664,262.5132743362832	#ff0000ff	5,5
+3_cn	331.00519210799587,354.90913811007266	#ff0000ff	5,5
+4_cn	332.0008703220191,261.01711633304325	#ff0000ff	5,5
+5_cn	333.02316960148283,355.58294717330864	#ff0000ff	5,5
+
+
+#edges
+@attribute	@from	@to	edgePoints
+@type			ControlPoints
+@default		
+0_e	0_cn	2_cn	
+1_e	2_cn	3_cn	277,236, 172,187, 172,233, 172,278, 172,325, 172,371, 225,371, 278,371,
+2_e	3_cn	1_cn	
+3_e	1_cn	0_cn	334,354, 391,370, 444,370, 497,371, 497,324, 497,278, 497,232, 389,236, 333,264,
+4_e	4_cn	0_cn	
+5_e	0_cn	1_cn	335,320,
+6_e	1_cn	5_cn	
+7_e	5_cn	4_cn	333,356, 279,373, 225,373, 170,373, 170,325, 170,278, 170,233, 170,183, 278,234, 332,261,
+8_e	2_cn	3_cn	333,320,
+9_e	3_cn	5_cn	331,355,
+10_e	5_cn	4_cn	390,372, 444,372, 499,373, 499,324, 499,278, 499,229, 387,234,
+11_e	4_cn	2_cn	330,262,
+
+
+##graph
+@attribute	color
+@type	Color
+@default	#7dff7d8f
+
+#nodes
+@attribute
+@type
+@default
+ab_n
+ac_n
+0_cn
+1_cn
+2_cn
+3_cn
+
+#edges
+@attribute
+@type
+@default
+0_e
+1_e
+2_e
+3_e
+
+
+##graph
+@attribute	color
+@type	Color
+@default	#ff807d8f
+
+#nodes
+@attribute
+@type
+@default
+ab_n
+0_cn
+1_cn
+4_cn
+5_cn
+
+#edges
+@attribute
+@type
+@default
+4_e
+5_e
+6_e
+7_e
+
+
+##graph
+@attribute	color
+@type	Color
+@default	#7dffff8f
+
+#nodes
+@attribute
+@type
+@default
+ac_n
+2_cn
+3_cn
+4_cn
+5_cn
+
+#edges
+@attribute
+@type
+@default
+8_e
+9_e
+10_e
+11_e
+
+

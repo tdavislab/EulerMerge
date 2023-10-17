@@ -1,0 +1,35 @@
+{
+  "abstractDiagram": [
+  {"zone": "0", "weight": 9, "coordinate": {"x": 228, "y": 168}},
+  {"zone": "a", "weight": 2, "coordinate": {"x": 118, "y": 197}},
+  {"zone": "b", "weight": 9, "coordinate": {"x": 178, "y": 236}},
+  {"zone": "c", "weight": 16, "coordinate": {"x": 317, "y": 100}},
+  {"zone": "e", "weight": 9, "coordinate": {"x": 315, "y": 180}},
+  {"zone": "f", "weight": 3, "coordinate": {"x": 265, "y": 237}},
+  {"zone": "ab", "weight": 10, "coordinate": {"x": 130, "y": 297}},
+  {"zone": "ce", "weight": 4, "coordinate": {"x": 382, "y": 189}},
+  {"zone": "abc", "weight": 8, "coordinate": {"x": 173, "y": 400}},
+  {"zone": "abe", "weight": 7, "coordinate": {"x": 198, "y": 330}},
+  {"zone": "ace", "weight": 3, "coordinate": {"x": 382, "y": 285}},
+  {"zone": "abce", "weight": 13, "coordinate": {"x": 272, "y": 363}},
+  {"zone": "abcef", "weight": 7, "coordinate": {"x": 289, "y": 296}}
+],      "zoneGraph": [
+  {"from": "a", "to": "0"},
+  {"from": "b", "to": "0"},
+  {"from": "c", "to": "0"},
+  {"from": "e", "to": "0"},
+  {"from": "f", "to": "0"},
+  {"from": "ab", "to": "a"},
+  {"from": "ab", "to": "b"},
+  {"from": "ce", "to": "c"},
+  {"from": "ce", "to": "e"},
+  {"from": "abc", "to": "ab"},
+  {"from": "abe", "to": "ab"},
+  {"from": "ace", "to": "ce"},
+  {"from": "abce", "to": "abc"},
+  {"from": "abce", "to": "abe"},
+  {"from": "abce", "to": "ace"},
+  {"from": "abcef", "to": "abce"},
+  {"from": "f", "to": "abcef"}
+]
+}

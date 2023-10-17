@@ -1,0 +1,158 @@
+{
+"inputZones": "0 a e ae",
+	"abstractDiagram": [
+	{"zone": "0", "weight": -1, "coordinate": {"x": 100, "y": 132}},
+	{"zone": "a", "weight": -1, "coordinate": {"x": 350, "y": 100}},
+	{"zone": "e", "weight": -1, "coordinate": {"x": 119, "y": 400}},
+	{"zone": "ae", "weight": null, "coordinate": {"x": 400, "y": 367}}	
+],	"zoneGraph": [
+	{"from": "a", "to": "0"},
+	{"from": "e", "to": "0"},
+	{"from": "ae", "to": "a"},
+	{"from": "ae", "to": "e"}	
+],
+	"curves" :[
+	{"curve": {"name":"a",
+		"coordinates": [
+			{"x": 225, "y": 116},
+			{"x": 300, "y": 50},
+			{"x": 363, "y": 50},
+			{"x": 425, "y": 50},
+			{"x": 425, "y": 112},
+			{"x": 425, "y": 175},
+			{"x": 434, "y": 328},
+			{"x": 434, "y": 371},
+			{"x": 434, "y": 412},
+			{"x": 392, "y": 411},
+			{"x": 350, "y": 411},
+			{"x": 260, "y": 383},
+			{"x": 273, "y": 200}
+		]}},
+	{"curve": {"name":"e",
+		"coordinates": [
+			{"x": 196, "y": 300},
+			{"x": 375, "y": 233},
+			{"x": 467, "y": 289},
+			{"x": 467, "y": 373},
+			{"x": 467, "y": 456},
+			{"x": 384, "y": 455},
+			{"x": 300, "y": 455},
+			{"x": 185, "y": 450},
+			{"x": 122, "y": 450},
+			{"x": 59, "y": 450},
+			{"x": 60, "y": 388},
+			{"x": 60, "y": 325},
+			{"x": 110, "y": 266}
+		]}}
+	],
+	"triangulationEdges" :[
+		{"edge": {"startX": 119, "startY": 400, "endX": 100, "endY": 132, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 110, "y": 266}}
+		]}},
+		{"edge": {"startX": 119, "startY": 400, "endX": 350, "endY": 100, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 196, "y": 300}},
+			{"cutPoint": {"sets": "a", "x": 273, "y": 200}}
+		]}},
+		{"edge": {"startX": 100, "startY": 132, "endX": 350, "endY": 100, "cut points": [
+			{"cutPoint": {"sets": "a", "x": 225, "y": 116}}
+		]}},
+		{"edge": {"startX": 350, "startY": 100, "endX": 400, "endY": 367, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 375, "y": 233}}
+		]}},
+		{"edge": {"startX": 400, "startY": 367, "endX": 119, "endY": 400, "cut points": [
+			{"cutPoint": {"sets": "a", "x": 260, "y": 383}}
+		]}},
+		{"edge": {"startX": 100, "startY": 132, "endX": 125, "endY": 0, "cut points": [
+		]}},
+		{"edge": {"startX": 100, "startY": 132, "endX": 250, "endY": 0, "cut points": [
+		]}},
+		{"edge": {"startX": 125, "startY": 0, "endX": 250, "endY": 0, "cut points": [
+		]}},
+		{"edge": {"startX": 250, "startY": 0, "endX": 350, "endY": 100, "cut points": [
+			{"cutPoint": {"sets": "a", "x": 300, "y": 50}}
+		]}},
+		{"edge": {"startX": 119, "startY": 400, "endX": 0, "endY": 375, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 60, "y": 388}}
+		]}},
+		{"edge": {"startX": 119, "startY": 400, "endX": 0, "endY": 250, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 60, "y": 325}}
+		]}},
+		{"edge": {"startX": 0, "startY": 375, "endX": 0, "endY": 250, "cut points": [
+		]}},
+		{"edge": {"startX": 0, "startY": 250, "endX": 100, "endY": 132, "cut points": [
+		]}},
+		{"edge": {"startX": 350, "startY": 100, "endX": 500, "endY": 125, "cut points": [
+			{"cutPoint": {"sets": "a", "x": 425, "y": 112}}
+		]}},
+		{"edge": {"startX": 350, "startY": 100, "endX": 500, "endY": 250, "cut points": [
+			{"cutPoint": {"sets": "a", "x": 425, "y": 175}}
+		]}},
+		{"edge": {"startX": 500, "startY": 125, "endX": 500, "endY": 250, "cut points": [
+		]}},
+		{"edge": {"startX": 500, "startY": 250, "endX": 400, "endY": 367, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 467, "y": 289}},
+			{"cutPoint": {"sets": "a", "x": 434, "y": 328}}
+		]}},
+		{"edge": {"startX": 400, "startY": 367, "endX": 375, "endY": 500, "cut points": [
+			{"cutPoint": {"sets": "a", "x": 392, "y": 411}},
+			{"cutPoint": {"sets": "e", "x": 384, "y": 455}}
+		]}},
+		{"edge": {"startX": 400, "startY": 367, "endX": 250, "endY": 500, "cut points": [
+			{"cutPoint": {"sets": "a", "x": 350, "y": 411}},
+			{"cutPoint": {"sets": "e", "x": 300, "y": 455}}
+		]}},
+		{"edge": {"startX": 375, "startY": 500, "endX": 250, "endY": 500, "cut points": [
+		]}},
+		{"edge": {"startX": 250, "startY": 500, "endX": 119, "endY": 400, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 185, "y": 450}}
+		]}},
+		{"edge": {"startX": 125, "startY": 0, "endX": 0, "endY": 0, "cut points": [
+		]}},
+		{"edge": {"startX": 100, "startY": 132, "endX": 0, "endY": 0, "cut points": [
+		]}},
+		{"edge": {"startX": 375, "startY": 0, "endX": 350, "endY": 100, "cut points": [
+			{"cutPoint": {"sets": "a", "x": 363, "y": 50}}
+		]}},
+		{"edge": {"startX": 375, "startY": 0, "endX": 250, "endY": 0, "cut points": [
+		]}},
+		{"edge": {"startX": 500, "startY": 0, "endX": 350, "endY": 100, "cut points": [
+			{"cutPoint": {"sets": "a", "x": 425, "y": 50}}
+		]}},
+		{"edge": {"startX": 500, "startY": 0, "endX": 375, "endY": 0, "cut points": [
+		]}},
+		{"edge": {"startX": 500, "startY": 125, "endX": 500, "endY": 0, "cut points": [
+		]}},
+		{"edge": {"startX": 500, "startY": 375, "endX": 400, "endY": 367, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 467, "y": 373}},
+			{"cutPoint": {"sets": "a", "x": 434, "y": 371}}
+		]}},
+		{"edge": {"startX": 500, "startY": 375, "endX": 500, "endY": 250, "cut points": [
+		]}},
+		{"edge": {"startX": 500, "startY": 500, "endX": 400, "endY": 367, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 467, "y": 456}},
+			{"cutPoint": {"sets": "a", "x": 434, "y": 412}}
+		]}},
+		{"edge": {"startX": 500, "startY": 500, "endX": 500, "endY": 375, "cut points": [
+		]}},
+		{"edge": {"startX": 375, "startY": 500, "endX": 500, "endY": 500, "cut points": [
+		]}},
+		{"edge": {"startX": 125, "startY": 500, "endX": 119, "endY": 400, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 122, "y": 450}}
+		]}},
+		{"edge": {"startX": 125, "startY": 500, "endX": 250, "endY": 500, "cut points": [
+		]}},
+		{"edge": {"startX": 0, "startY": 500, "endX": 119, "endY": 400, "cut points": [
+			{"cutPoint": {"sets": "e", "x": 59, "y": 450}}
+		]}},
+		{"edge": {"startX": 0, "startY": 500, "endX": 125, "endY": 500, "cut points": [
+		]}},
+		{"edge": {"startX": 0, "startY": 375, "endX": 0, "endY": 500, "cut points": [
+		]}},
+		{"edge": {"startX": 0, "startY": 125, "endX": 100, "endY": 132, "cut points": [
+		]}},
+		{"edge": {"startX": 0, "startY": 125, "endX": 0, "endY": 250, "cut points": [
+		]}},
+		{"edge": {"startX": 0, "startY": 0, "endX": 0, "endY": 125, "cut points": [
+		]}}
+	]
+}

@@ -1,0 +1,394 @@
+{
+  "inputZones": "0 a b c e f ab ce abc abe ace abce abcef",
+  "abstractDiagram": [
+  {"zone": "0", "weight": 8, "coordinate": {"x": 228, "y": 168}},
+  {"zone": "a", "weight": 9, "coordinate": {"x": 118, "y": 197}},
+  {"zone": "b", "weight": 1, "coordinate": {"x": 178, "y": 236}},
+  {"zone": "c", "weight": 9, "coordinate": {"x": 317, "y": 100}},
+  {"zone": "e", "weight": 10, "coordinate": {"x": 315, "y": 180}},
+  {"zone": "f", "weight": 5, "coordinate": {"x": 265, "y": 237}},
+  {"zone": "ab", "weight": 10, "coordinate": {"x": 130, "y": 297}},
+  {"zone": "ce", "weight": 5, "coordinate": {"x": 382, "y": 189}},
+  {"zone": "abc", "weight": 1, "coordinate": {"x": 173, "y": 400}},
+  {"zone": "abe", "weight": 5, "coordinate": {"x": 198, "y": 330}},
+  {"zone": "ace", "weight": 3, "coordinate": {"x": 382, "y": 285}},
+  {"zone": "abce", "weight": 12, "coordinate": {"x": 272, "y": 363}},
+  {"zone": "abcef", "weight": 8, "coordinate": {"x": 289, "y": 296}}
+  ],
+  "curves" :[
+  {"curve": {"name":"a",
+          "coordinates": [
+                  {"x": 154, "y": 266},
+                  {"x": 186, "y": 268},
+                  {"x": 200, "y": 248},
+                  {"x": 231, "y": 233},
+                  {"x": 268, "y": 252},
+                  {"x": 277, "y": 266},
+                  {"x": 289, "y": 237},
+                  {"x": 305, "y": 226},
+                  {"x": 359, "y": 250},
+                  {"x": 382, "y": 237},
+                  {"x": 407, "y": 274},
+                  {"x": 407, "y": 309},
+                  {"x": 407, "y": 338},
+                  {"x": 378, "y": 338},
+                  {"x": 340, "y": 382},
+                  {"x": 344, "y": 471},
+                  {"x": 256, "y": 471},
+                  {"x": 231, "y": 475},
+                  {"x": 143, "y": 475},
+                  {"x": 59, "y": 475},
+                  {"x": 59, "y": 382},
+                  {"x": 56, "y": 349},
+                  {"x": 56, "y": 267},
+                  {"x": 68, "y": 224},
+                  {"x": 68, "y": 161},
+                  {"x": 68, "y": 99},
+                  {"x": 126, "y": 99},
+                  {"x": 173, "y": 183},
+                  {"x": 196, "y": 211}
+          ]}},
+  {"curve": {"name":"b",
+          "coordinates": [
+                  {"x": 164, "y": 254},
+                  {"x": 124, "y": 247},
+                  {"x": 93, "y": 282},
+                  {"x": 93, "y": 323},
+                  {"x": 97, "y": 388},
+                  {"x": 97, "y": 450},
+                  {"x": 152, "y": 450},
+                  {"x": 212, "y": 450},
+                  {"x": 260, "y": 444},
+                  {"x": 326, "y": 444},
+                  {"x": 340, "y": 382},
+                  {"x": 327, "y": 324},
+                  {"x": 351, "y": 288},
+                  {"x": 300, "y": 249},
+                  {"x": 287, "y": 235},
+                  {"x": 276, "y": 261},
+                  {"x": 269, "y": 250},
+                  {"x": 226, "y": 228},
+                  {"x": 203, "y": 202}
+          ]}},
+  {"curve": {"name":"c",
+          "coordinates": [
+                  {"x": 275, "y": 257},
+                  {"x": 274, "y": 260},
+                  {"x": 310, "y": 203},
+                  {"x": 337, "y": 215},
+                  {"x": 349, "y": 185},
+                  {"x": 317, "y": 152},
+                  {"x": 272, "y": 134},
+                  {"x": 283, "y": 50},
+                  {"x": 342, "y": 50},
+                  {"x": 399, "y": 50},
+                  {"x": 399, "y": 112},
+                  {"x": 449, "y": 146},
+                  {"x": 448, "y": 229},
+                  {"x": 457, "y": 258},
+                  {"x": 457, "y": 353},
+                  {"x": 457, "y": 444},
+                  {"x": 370, "y": 444},
+                  {"x": 340, "y": 382},
+                  {"x": 308, "y": 417},
+                  {"x": 264, "y": 417},
+                  {"x": 193, "y": 425},
+                  {"x": 161, "y": 425},
+                  {"x": 135, "y": 425},
+                  {"x": 135, "y": 394},
+                  {"x": 152, "y": 349},
+                  {"x": 182, "y": 376},
+                  {"x": 235, "y": 347},
+                  {"x": 229, "y": 318},
+                  {"x": 244, "y": 272},
+                  {"x": 228, "y": 226},
+                  {"x": 269, "y": 247}
+          ]}},
+  {"curve": {"name":"e",
+          "coordinates": [
+                  {"x": 275, "y": 252},
+                  {"x": 296, "y": 203},
+                  {"x": 297, "y": 199},
+                  {"x": 272, "y": 174},
+                  {"x": 317, "y": 126},
+                  {"x": 349, "y": 144},
+                  {"x": 416, "y": 167},
+                  {"x": 415, "y": 209},
+                  {"x": 432, "y": 266},
+                  {"x": 432, "y": 331},
+                  {"x": 432, "y": 391},
+                  {"x": 374, "y": 391},
+                  {"x": 340, "y": 382},
+                  {"x": 290, "y": 390},
+                  {"x": 268, "y": 390},
+                  {"x": 223, "y": 381},
+                  {"x": 190, "y": 353},
+                  {"x": 164, "y": 314},
+                  {"x": 192, "y": 299},
+                  {"x": 222, "y": 260},
+                  {"x": 232, "y": 227},
+                  {"x": 272, "y": 247}
+          ]}},
+  {"curve": {"name":"f",
+          "coordinates": [
+                  {"x": 248, "y": 210},
+                  {"x": 231, "y": 233},
+                  {"x": 266, "y": 284},
+                  {"x": 259, "y": 307},
+                  {"x": 281, "y": 329},
+                  {"x": 320, "y": 291},
+                  {"x": 295, "y": 272},
+                  {"x": 289, "y": 237},
+                  {"x": 281, "y": 218},
+                  {"x": 246, "y": 202}
+          ]}}
+  ],
+  "triangulationEdges" :[
+          {"edge": {"startX": 228, "startY": 168, "endX": 178, "endY": 236, "cut points": [
+                  {"cutPoint": {"sets": "b", "x": 203, "y": 202}}
+          ]}},
+          {"edge": {"startX": 228, "startY": 168, "endX": 130, "endY": 297, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 196, "y": 211}},
+                  {"cutPoint": {"sets": "b", "x": 164, "y": 254}}
+          ]}},
+          {"edge": {"startX": 178, "startY": 236, "endX": 130, "endY": 297, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 154, "y": 266}}
+          ]}},
+          {"edge": {"startX": 130, "startY": 297, "endX": 118, "endY": 197, "cut points": [
+                  {"cutPoint": {"sets": "b", "x": 124, "y": 247}}
+          ]}},
+          {"edge": {"startX": 118, "startY": 197, "endX": 228, "endY": 168, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 173, "y": 183}}
+          ]}},
+          {"edge": {"startX": 228, "startY": 168, "endX": 265, "endY": 237, "cut points": [
+                  {"cutPoint": {"sets": "f", "x": 246, "y": 202}}
+          ]}},
+          {"edge": {"startX": 228, "startY": 168, "endX": 289, "endY": 296, "cut points": [
+                  {"cutPoint": {"sets": "f", "x": 248, "y": 210}},
+                  {"cutPoint": {"sets": "abce", "x": 268, "y": 252}}
+          ]}},
+          {"edge": {"startX": 265, "startY": 237, "endX": 289, "endY": 296, "cut points": [
+                  {"cutPoint": {"sets": "abce", "x": 277, "y": 266}}
+          ]}},
+          {"edge": {"startX": 289, "startY": 296, "endX": 272, "endY": 363, "cut points": [
+                  {"cutPoint": {"sets": "f", "x": 281, "y": 329}}
+          ]}},
+          {"edge": {"startX": 289, "startY": 296, "endX": 198, "endY": 330, "cut points": [
+                  {"cutPoint": {"sets": "f", "x": 259, "y": 307}},
+                  {"cutPoint": {"sets": "c", "x": 229, "y": 318}}
+          ]}},
+          {"edge": {"startX": 272, "startY": 363, "endX": 198, "endY": 330, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 235, "y": 347}}
+          ]}},
+          {"edge": {"startX": 198, "startY": 330, "endX": 130, "endY": 297, "cut points": [
+                  {"cutPoint": {"sets": "e", "x": 164, "y": 314}}
+          ]}},
+          {"edge": {"startX": 198, "startY": 330, "endX": 178, "endY": 236, "cut points": [
+                  {"cutPoint": {"sets": "e", "x": 192, "y": 299}},
+                  {"cutPoint": {"sets": "a", "x": 186, "y": 268}}
+          ]}},
+          {"edge": {"startX": 178, "startY": 236, "endX": 289, "endY": 296, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 200, "y": 248}},
+                  {"cutPoint": {"sets": "e", "x": 222, "y": 260}},
+                  {"cutPoint": {"sets": "c", "x": 244, "y": 272}},
+                  {"cutPoint": {"sets": "f", "x": 266, "y": 284}}
+          ]}},
+          {"edge": {"startX": 317, "startY": 100, "endX": 382, "endY": 189, "cut points": [
+                  {"cutPoint": {"sets": "e", "x": 349, "y": 144}}
+          ]}},
+          {"edge": {"startX": 317, "startY": 100, "endX": 315, "endY": 180, "cut points": [
+                  {"cutPoint": {"sets": "e", "x": 317, "y": 126}},
+                  {"cutPoint": {"sets": "c", "x": 317, "y": 152}}
+          ]}},
+          {"edge": {"startX": 382, "startY": 189, "endX": 315, "endY": 180, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 349, "y": 185}}
+          ]}},
+          {"edge": {"startX": 315, "startY": 180, "endX": 228, "endY": 168, "cut points": [
+                  {"cutPoint": {"sets": "e", "x": 272, "y": 174}}
+          ]}},
+          {"edge": {"startX": 228, "startY": 168, "endX": 317, "endY": 100, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 272, "y": 134}}
+          ]}},
+          {"edge": {"startX": 315, "startY": 180, "endX": 382, "endY": 285, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 337, "y": 215}},
+                  {"cutPoint": {"sets": "a", "x": 359, "y": 250}}
+          ]}},
+          {"edge": {"startX": 382, "startY": 189, "endX": 382, "endY": 285, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 382, "y": 237}}
+          ]}},
+          {"edge": {"startX": 382, "startY": 285, "endX": 272, "endY": 363, "cut points": [
+                  {"cutPoint": {"sets": "b", "x": 327, "y": 324}}
+          ]}},
+          {"edge": {"startX": 382, "startY": 285, "endX": 289, "endY": 296, "cut points": [
+                  {"cutPoint": {"sets": "b", "x": 351, "y": 288}},
+                  {"cutPoint": {"sets": "f", "x": 320, "y": 291}}
+          ]}},
+          {"edge": {"startX": 265, "startY": 237, "endX": 315, "endY": 180, "cut points": [
+                  {"cutPoint": {"sets": "f", "x": 281, "y": 218}},
+                  {"cutPoint": {"sets": "e", "x": 297, "y": 199}}
+          ]}},
+          {"edge": {"startX": 315, "startY": 180, "endX": 289, "endY": 296, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 310, "y": 203}},
+                  {"cutPoint": {"sets": "a", "x": 305, "y": 226}},
+                  {"cutPoint": {"sets": "b", "x": 300, "y": 249}},
+                  {"cutPoint": {"sets": "f", "x": 295, "y": 272}}
+          ]}},
+          {"edge": {"startX": 198, "startY": 330, "endX": 173, "endY": 400, "cut points": [
+                  {"cutPoint": {"sets": "e", "x": 190, "y": 353}},
+                  {"cutPoint": {"sets": "c", "x": 182, "y": 376}}
+          ]}},
+          {"edge": {"startX": 272, "startY": 363, "endX": 173, "endY": 400, "cut points": [
+                  {"cutPoint": {"sets": "e", "x": 223, "y": 381}}
+          ]}},
+          {"edge": {"startX": 173, "startY": 400, "endX": 130, "endY": 297, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 152, "y": 349}}
+          ]}},
+          {"edge": {"startX": 118, "startY": 197, "endX": 18, "endY": 0, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 68, "y": 99}}
+          ]}},
+          {"edge": {"startX": 118, "startY": 197, "endX": 134, "endY": 0, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 126, "y": 99}}
+          ]}},
+          {"edge": {"startX": 18, "startY": 0, "endX": 134, "endY": 0, "cut points": [
+          ]}},
+          {"edge": {"startX": 134, "startY": 0, "endX": 228, "endY": 168, "cut points": [
+          ]}},
+          {"edge": {"startX": 228, "startY": 168, "endX": 250, "endY": 0, "cut points": [
+          ]}},
+          {"edge": {"startX": 134, "startY": 0, "endX": 250, "endY": 0, "cut points": [
+          ]}},
+          {"edge": {"startX": 250, "startY": 0, "endX": 317, "endY": 100, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 283, "y": 50}}
+          ]}},
+          {"edge": {"startX": 130, "startY": 297, "endX": 18, "endY": 375, "cut points": [
+                  {"cutPoint": {"sets": "b", "x": 93, "y": 323}},
+                  {"cutPoint": {"sets": "a", "x": 56, "y": 349}}
+          ]}},
+          {"edge": {"startX": 130, "startY": 297, "endX": 18, "endY": 250, "cut points": [
+                  {"cutPoint": {"sets": "b", "x": 93, "y": 282}},
+                  {"cutPoint": {"sets": "a", "x": 56, "y": 267}}
+          ]}},
+          {"edge": {"startX": 18, "startY": 375, "endX": 18, "endY": 250, "cut points": [
+          ]}},
+          {"edge": {"startX": 18, "startY": 250, "endX": 118, "endY": 197, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 68, "y": 224}}
+          ]}},
+          {"edge": {"startX": 317, "startY": 100, "endX": 482, "endY": 0, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 399, "y": 50}}
+          ]}},
+          {"edge": {"startX": 317, "startY": 100, "endX": 482, "endY": 125, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 399, "y": 112}}
+          ]}},
+          {"edge": {"startX": 482, "startY": 0, "endX": 482, "endY": 125, "cut points": [
+          ]}},
+          {"edge": {"startX": 482, "startY": 125, "endX": 382, "endY": 189, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 449, "y": 146}},
+                  {"cutPoint": {"sets": "e", "x": 416, "y": 167}}
+          ]}},
+          {"edge": {"startX": 173, "startY": 400, "endX": 18, "endY": 500, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 135, "y": 425}},
+                  {"cutPoint": {"sets": "b", "x": 97, "y": 450}},
+                  {"cutPoint": {"sets": "a", "x": 59, "y": 475}}
+          ]}},
+          {"edge": {"startX": 173, "startY": 400, "endX": 18, "endY": 375, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 135, "y": 394}},
+                  {"cutPoint": {"sets": "b", "x": 97, "y": 388}},
+                  {"cutPoint": {"sets": "a", "x": 59, "y": 382}}
+          ]}},
+          {"edge": {"startX": 18, "startY": 500, "endX": 18, "endY": 375, "cut points": [
+          ]}},
+          {"edge": {"startX": 382, "startY": 189, "endX": 482, "endY": 250, "cut points": [
+                  {"cutPoint": {"sets": "e", "x": 415, "y": 209}},
+                  {"cutPoint": {"sets": "c", "x": 448, "y": 229}}
+          ]}},
+          {"edge": {"startX": 482, "startY": 125, "endX": 482, "endY": 250, "cut points": [
+          ]}},
+          {"edge": {"startX": 482, "startY": 250, "endX": 382, "endY": 285, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 457, "y": 258}},
+                  {"cutPoint": {"sets": "e", "x": 432, "y": 266}},
+                  {"cutPoint": {"sets": "a", "x": 407, "y": 274}}
+          ]}},
+          {"edge": {"startX": 272, "startY": 363, "endX": 366, "endY": 500, "cut points": [
+                  {"cutPoint": {"sets": "e", "x": 290, "y": 390}},
+                  {"cutPoint": {"sets": "c", "x": 308, "y": 417}},
+                  {"cutPoint": {"sets": "b", "x": 326, "y": 444}},
+                  {"cutPoint": {"sets": "a", "x": 344, "y": 471}}
+          ]}},
+          {"edge": {"startX": 272, "startY": 363, "endX": 250, "endY": 500, "cut points": [
+                  {"cutPoint": {"sets": "e", "x": 268, "y": 390}},
+                  {"cutPoint": {"sets": "c", "x": 264, "y": 417}},
+                  {"cutPoint": {"sets": "b", "x": 260, "y": 444}},
+                  {"cutPoint": {"sets": "a", "x": 256, "y": 471}}
+          ]}},
+          {"edge": {"startX": 366, "startY": 500, "endX": 250, "endY": 500, "cut points": [
+          ]}},
+          {"edge": {"startX": 250, "startY": 500, "endX": 173, "endY": 400, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 231, "y": 475}},
+                  {"cutPoint": {"sets": "b", "x": 212, "y": 450}},
+                  {"cutPoint": {"sets": "c", "x": 193, "y": 425}}
+          ]}},
+          {"edge": {"startX": 382, "startY": 285, "endX": 482, "endY": 500, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 407, "y": 338}},
+                  {"cutPoint": {"sets": "e", "x": 432, "y": 391}},
+                  {"cutPoint": {"sets": "c", "x": 457, "y": 444}}
+          ]}},
+          {"edge": {"startX": 382, "startY": 285, "endX": 366, "endY": 500, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 378, "y": 338}},
+                  {"cutPoint": {"sets": "e", "x": 374, "y": 391}},
+                  {"cutPoint": {"sets": "c", "x": 370, "y": 444}}
+          ]}},
+          {"edge": {"startX": 482, "startY": 500, "endX": 366, "endY": 500, "cut points": [
+          ]}},
+          {"edge": {"startX": 366, "startY": 0, "endX": 317, "endY": 100, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 342, "y": 50}}
+          ]}},
+          {"edge": {"startX": 366, "startY": 0, "endX": 250, "endY": 0, "cut points": [
+          ]}},
+          {"edge": {"startX": 482, "startY": 0, "endX": 366, "endY": 0, "cut points": [
+          ]}},
+          {"edge": {"startX": 482, "startY": 375, "endX": 382, "endY": 285, "cut points": [
+                  {"cutPoint": {"sets": "c", "x": 457, "y": 353}},
+                  {"cutPoint": {"sets": "e", "x": 432, "y": 331}},
+                  {"cutPoint": {"sets": "a", "x": 407, "y": 309}}
+          ]}},
+          {"edge": {"startX": 482, "startY": 375, "endX": 482, "endY": 250, "cut points": [
+          ]}},
+          {"edge": {"startX": 482, "startY": 500, "endX": 482, "endY": 375, "cut points": [
+          ]}},
+          {"edge": {"startX": 134, "startY": 500, "endX": 173, "endY": 400, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 143, "y": 475}},
+                  {"cutPoint": {"sets": "b", "x": 152, "y": 450}},
+                  {"cutPoint": {"sets": "c", "x": 161, "y": 425}}
+          ]}},
+          {"edge": {"startX": 134, "startY": 500, "endX": 250, "endY": 500, "cut points": [
+          ]}},
+          {"edge": {"startX": 18, "startY": 500, "endX": 134, "endY": 500, "cut points": [
+          ]}},
+          {"edge": {"startX": 18, "startY": 125, "endX": 118, "endY": 197, "cut points": [
+                  {"cutPoint": {"sets": "a", "x": 68, "y": 161}}
+          ]}},
+          {"edge": {"startX": 18, "startY": 125, "endX": 18, "endY": 250, "cut points": [
+          ]}},
+          {"edge": {"startX": 18, "startY": 0, "endX": 18, "endY": 125, "cut points": [
+          ]}}
+  ],
+  "edges": [
+        {"from": "a", "to": "0"},
+        {"from": "b", "to": "0"},
+        {"from": "c", "to": "0"},
+        {"from": "e", "to": "0"},
+        {"from": "f", "to": "0"},
+        {"from": "ab", "to": "a"},
+        {"from": "ab", "to": "b"},
+        {"from": "ce", "to": "c"},
+        {"from": "ce", "to": "e"},
+        {"from": "abc", "to": "ab"},
+        {"from": "abe", "to": "ab"},
+        {"from": "ace", "to": "ce"},
+        {"from": "abce", "to": "abc"},
+        {"from": "abce", "to": "abe"},
+        {"from": "abce", "to": "ace"},
+        {"from": "abcef", "to": "abce"},
+        {"from": "f", "to": "abcef"}
+  ]
+}

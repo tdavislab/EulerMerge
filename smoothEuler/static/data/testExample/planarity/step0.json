@@ -1,0 +1,43 @@
+{
+  "abstractDiagram": [
+  {"zone": "0", "weight": -1, "coordinate": {"x": 228, "y": 168}},
+  {"zone": "a", "weight": -1, "coordinate": {"x": 118, "y": 197}},
+  {"zone": "b", "weight": -1, "coordinate": {"x": 178, "y": 236}},
+  {"zone": "c", "weight": -1, "coordinate": {"x": 317, "y": 100}},
+  {"zone": "d", "weight": -1, "coordinate": {"x": 172, "y": 134}},
+  {"zone": "e", "weight": -1, "coordinate": {"x": 315, "y": 180}},
+  {"zone": "f", "weight": -1, "coordinate": {"x": 265, "y": 237}},
+  {"zone": "ab", "weight": -1, "coordinate": {"x": 130, "y": 297}},
+  {"zone": "abc", "weight": -1, "coordinate": {"x": 173, "y": 400}},
+  {"zone": "abe", "weight": -1, "coordinate": {"x": 198, "y": 330}},
+  {"zone": "ade", "weight": -1, "coordinate": {"x": 85, "y": 242}},
+  {"zone": "cde", "weight": -1, "coordinate": {"x": 260, "y": 103}},
+  {"zone": "abce", "weight": -1, "coordinate": {"x": 272, "y": 363}},
+  {"zone": "abde", "weight": -1, "coordinate": {"x": 150, "y": 337}},
+  {"zone": "abcdef", "weight": -1, "coordinate": {"x": 256, "y": 310}}
+],      "zoneGraph": [
+  {"from": "a", "to": "0"},
+  {"from": "b", "to": "0"},
+  {"from": "c", "to": "0"},
+  {"from": "d", "to": "0"},
+  {"from": "e", "to": "0"},
+  {"from": "f", "to": "0"},
+  {"from": "ab", "to": "a"},
+  {"from": "ab", "to": "b"},
+  {"from": "abc", "to": "ab"},
+  {"from": "abe", "to": "ab"},
+  {"from": "abce", "to": "abc"},
+  {"from": "abce", "to": "abe"},
+  {"from": "abde", "to": "abe"},
+  {"from": "abde", "to": "ade"},
+  {"from": "abce", "to": "abcdef"},
+  {"from": "c", "to": "abc"},
+  {"from": "c", "to": "cde"},
+  {"from": "d", "to": "ade"},
+  {"from": "d", "to": "cde"},
+  {"from": "abde", "to": "abcdef"},
+  {"from": "e", "to": "abe"},
+  {"from": "e", "to": "cde"},
+  {"from": "f", "to": "abcdef"}
+]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Euler Diagram Prototype</title>
+    <link rel="stylesheet" href="../static/css/layout.css">
+    <link rel="stylesheet" href="../static/css/rightContainer.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/89d02c748f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="eulerContent">
+        <div id="Eulergraph" class="euler"><svg></svg></div>
+        <div id="Eulerlegend">
+          <table>
+            <tbody>
+              <tr><td class="checkBoxtd"><input type="checkbox" style="accent-color: #9b59b6;"></td></td>
+                <td>b</td></tr>
+              <tr><td class="checkBoxtd"><input type="checkbox" style="accent-color: #9b59b6;"></td></td>
+                <td>b</td></tr>
+            </tbody>
+            <tfoot>
+              <tr class="selectAllRow"><td class="checkBoxtd"><input type="checkbox" class="checkbox-All" checked></td><td>All</td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+      <!-- <div class="break"></div> -->
+      <div id="controlPanel">
+        <div id="setting">
+          <div><input type="checkbox" id="triangleBox">Triangulation</input></div>
+          <div><input type="checkbox" id="graphBox" checked>Zone Graph</input></div>
+        </div>
+        <div class="break"></div>
+        <div>Iteration <input id="iterationInput" type="number" value="50"></div>
+        <div>Distance <input id="distanceInput" type="number" value="5"></div>
+        <div><button id="smoothBtn">Smooth</button></div>
+        <div><button id="restoreBtn">Restore</button></div>
+      </div>
+    </div>
+    <script src="../static/js/legend.js"></script>
+    <script src="../static/js/eulerDiagram.js"></script>
+    <script src="../static/js/index.js"></script>
+  </body>
+</html>

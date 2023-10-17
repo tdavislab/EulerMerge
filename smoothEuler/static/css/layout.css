@@ -1,0 +1,219 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  /* font-family: Helvetica, sans-serif, sans-serif; */
+  font-family: sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 13px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  position: relative;
+}
+
+@font-face {
+  font-family: 'font1';
+  src: url('../assets/font1.ttf');
+}
+
+
+#container{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin: 0 0 0 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+/*lengend container*/
+#LegendContainer{
+  width: auto;
+  height: 30px;
+  padding: 5px;
+  border: lightgray 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+}
+/*left and right buttons; 2 euler diagrams*/
+#eulerContainer{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+/* control panel */
+#controlPanel{
+  padding: 10px;
+  width: 500px;
+  height: 60px;
+  border: lightgray 1px solid;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  visibility: visible;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/*divs inside the eulerContainer*/
+#eulerContainer .leftBtn, #eulerContainer .rightBtn{
+  padding: 0 5px;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  opacity: 0.4;
+}
+#eulerContent{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#Eulergraph{
+  margin-right: 5px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#Eulerlegend{
+  margin-right: 5px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*divs inside the LegendContainer*/
+#LegendContainer #legend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100%;
+  border-right:lightgray 1px solid;
+}
+#setting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  /* column-gap: 10px; */
+  /* height: 100%; */
+}
+#legend >div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2px 8px 2px 0;
+  font-size: 15px;
+  color: grey;
+}
+#legend p{
+  margin: 2px 0;
+}
+#legend .legendRect{
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+#setting >div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 5px;
+  font-size: 13px;
+  color: black;
+}
+
+/*let the div change a new row*/
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+
+#controlPanel >div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 5px;
+  font-size: 13px;
+  color: black;
+}
+
+#controlPanel input{
+  width: 50px;
+  margin-left: 5px;
+}
+
+/*switchContainer contains merge sets, and switchContainer in the middle*/
+#mergeInfoContainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#mergeInfoContainer >span{
+  align-self: flex-start;
+  font-size: 13px;
+}
+#mergeInfoContainer .mergeText{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*switchContainer contains icons of last and next, and the total number of merges in the middle*/
+#switchContainer{
+  width: 120px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+}
+#switchContainer input {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  font-size: 15px;
+}
+#switchContainer .lrBtn{  /*last and next button*/
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+#switchContainer .lrBtn:hover{  /*last and next button*/
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#colorset{
+  text-decoration-color: #4e79a7, #f28e2c, #e15759, #76b7b2, #59a14f, #edc949, #af7aa1, #ff9da7, #9c755f, #bab0ab;
+
+  color: #17becf #9edae5 #dbdb8d #bcbd22 #c7c7c7 #7f7f7f #f7b6d2 #e377c2 #c49c94 #8c564b #c5b0d5 #9467bd #ff9896
+  #d62728 #98df8a #2ca02c #ffbb78 #ff7f0e #aec7e8 #1f77b4;
+
+  color-scheme: #4e79a7, #f28e2c, #e15759, #76b7b2, #59a14f, #edc949, #af7aa1, #ff9da7, #9c755f, #bab0ab, #aec7e8, #9467bd, #ffbb78, 
+  #dbdb8d, #d62728, #98df8a, #1f77b4, #c5b0d5, #7f7f7f, #bcbd22
+}

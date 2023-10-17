@@ -1,0 +1,181 @@
+#graph
+@attribute
+@type
+@default
+
+#nodes
+@attribute	nodePosition	color	nodeSize
+@type	Coordinates	Color	Coordinates
+@default	0.0,0.0	#ff0000ff	1.0,1.0
+0_n	228,168	#ff0000ff	5,5
+a_n	118,197	#ff0000ff	5,5
+b_n	178,236	#ff0000ff	5,5
+c_n	317,100	#ff0000ff	5,5
+e_n	315,180	#ff0000ff	5,5
+ab_n	130,297	#ff0000ff	5,5
+ce_n	382,189	#ff0000ff	5,5
+abc_n	173,400	#ff0000ff	5,5
+abe_n	198,330	#ff0000ff	5,5
+ace_n	382,285	#ff0000ff	5,5
+abce_n	272,363	#ff0000ff	5,5
+0_cn	230.0,248.0	#ff0000ff	5,5
+1_cn	340.0,382.0	#ff0000ff	5,5
+2_cn	163.26222935044106,253.87089013632718	#ff0000ff	5,5
+3_cn	235.25,246.92307692307693	#ff0000ff	5,5
+4_cn	231.08212560386474,249.48792270531402	#ff0000ff	5,5
+5_cn	227.03621169916434,251.97771587743733	#ff0000ff	5,5
+6_cn	226.9953488372093,252.0325581395349	#ff0000ff	5,5
+7_cn	203.3433019254404,364.3215895124949	#ff0000ff	5,5
+8_cn	298.9879518072289,144.79518072289156	#ff0000ff	5,5
+
+
+#edges
+@attribute	@from	@to	edgePoints
+@type			ControlPoints
+@default			
+0_e	0_cn	3_cn	
+1_e	3_cn	1_cn	269,240, 359,250, 382,237, 407,274, 407,309, 407,338, 378,338,
+2_e	1_cn	2_cn	344,471, 256,471, 231,475, 143,475, 59,475, 59,382, 56,349, 56,267, 68,224, 68,161, 68,99, 126,99, 173,183, 196,211,
+3_e	2_cn	0_cn	154,266, 186,268,
+4_e	2_cn	1_cn	124,247, 93,282, 93,323, 97,388, 97,450, 152,450, 212,450, 260,444, 326,444,
+5_e	1_cn	4_cn	327,324, 321,300, 246,270,
+6_e	4_cn	0_cn	
+7_e	0_cn	2_cn	223,218, 203,202, 164,254,
+8_e	3_cn	4_cn	
+9_e	4_cn	5_cn	
+10_e	5_cn	6_cn	227,252,
+11_e	6_cn	7_cn	220,301, 260,315, 235,347,
+12_e	7_cn	1_cn	182,376, 152,349, 135,394, 135,425, 161,425, 193,425, 264,417, 308,417,
+13_e	1_cn	8_cn	370,444, 457,444, 457,353, 457,258, 448,229, 449,146, 399,112, 399,50, 342,50, 283,50, 272,134,
+14_e	8_cn	3_cn	317,152, 348,184, 337,215, 292,212,
+15_e	5_cn	6_cn	
+16_e	6_cn	0_cn	
+17_e	0_cn	8_cn	268,200, 271,174,
+18_e	8_cn	1_cn	317,126, 349,144, 416,167, 415,209, 432,266, 432,331, 432,391, 374,391,
+19_e	1_cn	7_cn	290,390, 268,390, 223,381,
+20_e	7_cn	5_cn	190,353, 164,314, 192,299,
+
+
+##graph
+@attribute	color
+@type	Color
+@default	#ff807d8f
+
+#nodes
+@attribute
+@type
+@default
+a_n
+ab_n
+abc_n
+abe_n
+ace_n
+abce_n
+0_cn
+1_cn
+2_cn
+3_cn
+
+#edges
+@attribute
+@type
+@default
+0_e
+1_e
+2_e
+3_e
+
+##graph
+@attribute	color
+@type	Color
+@default	#ff807d8f
+
+#nodes
+@attribute
+@type
+@default
+b_n
+ab_n
+abc_n
+abe_n
+abce_n
+0_cn
+1_cn
+2_cn
+4_cn
+
+#edges
+@attribute
+@type
+@default
+4_e
+5_e
+6_e
+7_e
+
+##graph
+@attribute	color
+@type	Color
+@default	#ff807d8f
+
+#nodes
+@attribute
+@type
+@default
+c_n
+ce_n
+abc_n
+ace_n
+abce_n
+3_cn
+1_cn
+4_cn
+5_cn
+6_cn
+7_cn
+8_cn
+
+#edges
+@attribute
+@type
+@default
+8_e
+9_e
+10_e
+11_e
+12_e
+13_e
+14_e
+
+##graph
+@attribute	color
+@type	Color
+@default	#ff807d8f
+
+#nodes
+@attribute
+@type
+@default
+e_n
+ce_n
+abe_n
+ace_n
+abce_n
+0_cn
+1_cn
+5_cn
+6_cn
+7_cn
+8_cn
+
+#edges
+@attribute
+@type
+@default
+15_e
+16_e
+17_e
+18_e
+19_e
+20_e
+

@@ -1,0 +1,11 @@
+{
+  "sets": ["a", "b", "c", "d", "e", "f"],
+  "planarity": {
+    "stepnum": 1,
+    "merges": [["c", "d"]]
+  },
+  "deconcurrency": {
+    "stepnum": 1,
+    "merges": [["a", "f"]]
+  }
+}

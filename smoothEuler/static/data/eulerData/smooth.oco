@@ -1,0 +1,192 @@
+#graph
+@attribute
+@type
+@default
+
+#nodes
+@attribute	nodePosition	color	nodeSize
+@type	Coordinates	Color	Coordinates
+@default	0.0,0.0	#ff0000ff	1.0,1.0
+0_n	247,188	#ff0000ff	5,5
+a_n	173,288	#ff0000ff	5,5
+c_n	336,134	#ff0000ff	5,5
+e_n	351,255	#ff0000ff	5,5
+f_n	149,168	#ff0000ff	5,5
+g_n	251,247	#ff0000ff	5,5
+ae_n	284,367	#ff0000ff	5,5
+af_n	100,232	#ff0000ff	5,5
+ag_n	229,294	#ff0000ff	5,5
+ce_n	400,179	#ff0000ff	5,5
+eg_n	300,277	#ff0000ff	5,5
+aeg_n	271,320	#ff0000ff	5,5
+0_cn	194.0,374.0	#ff0000ff	5,5
+1_cn	268.0869565217391,282.0869565217391	#ff0000ff	5,5
+2_cn	56.0,168.0	#ff0000ff	5,5
+3_cn	178.2,220.0	#ff0000ff	5,5
+4_cn	303.78401727861774,308.6306695464363	#ff0000ff	5,5
+5_cn	225.08,250.064	#ff0000ff	5,5
+6_cn	444.0,233.66666666666666	#ff0000ff	5,5
+7_cn	324.29839704069053,193.08754623921084	#ff0000ff	5,5
+8_cn	290.8682634730539,238.8443113772455	#ff0000ff	5,5
+9_cn	233.8,316.0	#ff0000ff	5,5
+
+
+#edges
+@attribute	@from	@to	edgePoints
+@type			ControlPoints
+@default			
+0_e	2_cn	0_cn	34,172, 33,244, 33,316, 87,323, 87,377, 149,378,
+1_e	0_cn	4_cn	231,400, 273,400, 315,401, 356,401, 318,311,
+2_e	4_cn	1_cn	294,307, 285,299,
+3_e	1_cn	5_cn	257,271, 240,270, 235,258,
+4_e	5_cn	3_cn	210,238,
+5_e	3_cn	2_cn	157,208, 124,200, 67,166,
+6_e	6_cn	7_cn	466,225, 467,154, 467,82, 418,84, 355,84, 293,84, 230,84, 291,161,
+7_e	7_cn	6_cn	346,214, 376,217, 433,238,
+8_e	7_cn	8_cn	299,222,
+9_e	8_cn	1_cn	285,251, 276,262,
+10_e	1_cn	9_cn	263,295, 250,307, 237,308,
+11_e	9_cn	0_cn	229,328,
+12_e	0_cn	6_cn	178,433, 262,433, 345,434, 428,434, 425,361, 425,306, 466,297,
+13_e	6_cn	7_cn	433,202, 434,166, 434,130, 368,156, 341,174,
+14_e	3_cn	2_cn	198,178, 137,101, 74,101, 34,100,
+15_e	2_cn	3_cn	67,202, 66,238, 66,274, 137,260, 165,248,
+16_e	5_cn	9_cn	201,291, 205,298,
+17_e	9_cn	4_cn	277,343, 289,337,
+18_e	4_cn	8_cn	326,266, 318,253,
+19_e	8_cn	5_cn	249,217, 241,223,
+
+
+##graph
+@attribute	color
+@type	Color
+@default	#ff807d8f
+
+#nodes
+@attribute
+@type
+@default
+a_n
+ae_n
+af_n
+ag_n
+aeg_n
+0_cn
+1_cn
+2_cn
+3_cn
+4_cn
+5_cn
+
+#edges
+@attribute
+@type
+@default
+0_e
+1_e
+2_e
+3_e
+4_e
+5_e
+
+##graph
+@attribute	color
+@type	Color
+@default	#ff807d8f
+
+#nodes
+@attribute
+@type
+@default
+c_n
+ce_n
+6_cn
+7_cn
+
+#edges
+@attribute
+@type
+@default
+6_e
+7_e
+
+##graph
+@attribute	color
+@type	Color
+@default	#ff807d8f
+
+#nodes
+@attribute
+@type
+@default
+e_n
+ae_n
+ce_n
+eg_n
+aeg_n
+0_cn
+1_cn
+6_cn
+7_cn
+8_cn
+9_cn
+
+#edges
+@attribute
+@type
+@default
+8_e
+9_e
+10_e
+11_e
+12_e
+13_e
+
+##graph
+@attribute	color
+@type	Color
+@default	#ff807d8f
+
+#nodes
+@attribute
+@type
+@default
+f_n
+af_n
+2_cn
+3_cn
+
+#edges
+@attribute
+@type
+@default
+14_e
+15_e
+
+##graph
+@attribute	color
+@type	Color
+@default	#ff807d8f
+
+#nodes
+@attribute
+@type
+@default
+g_n
+ag_n
+eg_n
+aeg_n
+4_cn
+5_cn
+8_cn
+9_cn
+
+#edges
+@attribute
+@type
+@default
+16_e
+17_e
+18_e
+19_e
+
