@@ -39,11 +39,11 @@ pip install shapely
 cd EulerMerge/smoothEuler
 python app.py
 ```
-After running the above commands, you can access the interative visualization demo by visiting http://127.0.0.1:5000/ on the local machine (If possible, please use Chrome). You will see the interface like the one below.
+After running the above commands, you can access the interactive visualization demo by visiting http://127.0.0.1:5000/ on the local machine (If possible, please use Chrome). You will see an interface like the one below.
 
 ![interface](./smoothEuler/interface.png)
 
 
-* `Triangulation` allows to visualize the triangulation of the Euler disgram, which indicate how an Euler diagram is derived.
+* `Triangulation` allows to visualize the triangulation of the Euler diagram, which indicates how an Euler diagram is derived.
 * `Zone graph` allows to visualize the zone graph.
 * `Iteration` and `Distance` are parameters of the EulerSmooth algorithm, allowing to control the number of smoothing cycles performed, and the distance between nodes and curves, respectively.
